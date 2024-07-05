@@ -24,7 +24,7 @@ df = pd.DataFrame(d)
 visitor_sum = df.groupby('weekday')['visitor'].sum()
 
 # Convert the result to dictionary format
-result = visitor_sum.to_dict()
+result = dict(vistor_sum)
 
 # Output the result
 print(result)
