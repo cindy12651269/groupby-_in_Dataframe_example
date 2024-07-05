@@ -5,7 +5,7 @@ This script calculates the total number of visitors for each weekday from a give
 ## Sample Output
 
 ```python
-{ 'Sun': 376, 'Mon': 782 }
+
 import pandas as pd
 import numpy as np
 
